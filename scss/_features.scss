@@ -1,0 +1,146 @@
+.features {
+    background: #FAFAFA;
+    z-index: 2;
+    position: relative;
+    max-width: 100%;
+    padding-bottom: 100px;
+
+    @media(max-width: 768px) {
+        padding-bottom: 0;
+    }
+
+    .features__title {
+        text-align: center;
+        padding-top: 50px;
+        font-size: 36px;
+        padding-bottom: 60px;
+    }
+}
+
+.features__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    @media(max-width: 768px) {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+.feature {
+    width: 33%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+
+    @media(max-width: 1200px) {
+        justify-content: center;
+
+    }
+
+    @media(max-width: 768px) {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 200px;
+    }
+
+    @media(max-width: 380px) {
+        margin-bottom: 165px;
+    }
+
+
+
+
+
+}
+
+
+
+.feature__image {
+    border-radius: 10px;
+    position: absolute;
+    z-index: 0;
+
+    @media(max-width: 1200px) {
+        max-width: 100%;
+        padding: 0 7px;
+
+    }
+
+
+
+}
+
+.dashboard {
+    background-color: #fff;
+    text-align: center;
+    width: 280px;
+    margin: 150px 35px 0;
+    padding: 25px 25px;
+
+
+    @media(max-width: 1200px) {
+        margin: 100px 25px 0px 25px;
+
+    }
+
+    @media(max-width: 768px) {
+        margin: 150px 25px -100px 25px;
+    }
+
+
+    border-radius: 10px;
+    z-index: 1;
+    align-self: center;
+
+
+
+    .dashboard__title {
+        font-size: 18px;
+        line-height: 22px;
+        padding-bottom: 20px;
+
+        @media(max-width: 1200px) {
+            font-size: 14px;
+
+        }
+
+        @media(max-width: 768px) {
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+
+    }
+
+    .dashboard__description {
+        font-size: 12px;
+        padding-bottom: 20px;
+
+        @media(max-width: 1200px) {
+            font-size: 12px;
+
+        }
+
+        @media(max-width: 768px) {
+            padding-bottom: 10px;
+            font-size: 14px;
+        }
+    }
+
+    .dashboard__readmore {
+        font-size: 12px;
+        padding-bottom: 20px;
+        color: red;
+
+        @media(max-width: 768px) {
+            font-size: 14px;
+        }
+    }
+}

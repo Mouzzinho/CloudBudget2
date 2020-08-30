@@ -1,0 +1,187 @@
+.footer {
+    background: #FAFAFA;
+    padding: 100px 0 90px 0;
+
+
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+
+
+
+    @media(max-width: 768px) {
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+}
+
+.title--size {
+    font-size: 18px;
+    padding-bottom: 30px;
+
+    @media(max-width: 1200px) {
+        font-size: 16px;
+
+    }
+
+    @media(max-width: 768px) {
+        font-size: 36px;
+    }
+
+    @media(max-width: 480px) {
+        font-size: 30px;
+    }
+}
+
+.text--size {
+    font-size: 12px;
+    line-height: 150%;
+    text-align: left;
+
+    @media(max-width: 1200px) {
+        font-size: 11px;
+
+    }
+
+    @media(max-width: 768px) {
+        font-size: 22px;
+    }
+
+    @media(max-width: 480px) {
+        font-size: 18px;
+    }
+}
+
+.address {
+    width: 25%;
+
+
+    @media(max-width: 768px) {
+        width: 100%;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    @media(max-width: 480px) {
+        padding-right: 0px;
+    }
+
+    .address__address {
+        @media(max-width: 768px) {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+    }
+
+    .address--span {
+        display: block;
+    }
+}
+
+.services {
+    width: 25%;
+
+
+
+    @media(max-width: 768px) {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .servies-list {
+        display: flex;
+        flex-direction: column;
+
+        .services-list__item {
+            line-height: 160%;
+
+            @media(max-width: 768px) {
+                text-align: center;
+            }
+
+
+
+        }
+
+    }
+
+}
+
+.get-in-touch {
+    width: 25%;
+
+    @media(max-width: 768px) {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .get-in-touch__mail {
+        padding-bottom: 10px;
+
+
+
+        @media(max-width: 768px) {
+            text-align: center;
+        }
+
+
+    }
+
+    .get-in-touch__phone {
+        @media(max-width: 768px) {
+            text-align: center;
+
+        }
+    }
+
+    .socials {
+        padding-top: 20px;
+
+        .socials__facebook {
+            padding-right: 10px;
+        }
+
+        .socials__linked-in {
+            padding-right: 10px;
+        }
+    }
+}
+
+.secure {
+    width: 25%;
+
+    @media(max-width: 768px) {
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .secure__image {
+        @media(max-width: 1200px) {
+            max-width: 100%;
+        }
+
+
+
+    }
+}
+
+
+.copyright {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 100px;
+
+
+
+}

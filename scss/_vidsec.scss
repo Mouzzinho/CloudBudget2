@@ -1,0 +1,161 @@
+.video-section {
+
+    padding-top: 100px;
+    padding-bottom: 30px;
+
+    @media(max-width: 480px) {
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+}
+
+.video-sevtion__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+
+    @media(max-width: 1200px) {
+        align-items: center;
+    }
+
+    @media(max-width: 768px) {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media(max-width: 480px) {
+        flex-direction: column-reverse;
+        padding: 0 15px;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+}
+
+
+.video-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+
+    @media(max-width: 768px) {
+        align-items: center;
+        width: 100%;
+    }
+
+
+    .video-left__title {
+        font-size: 36px;
+
+        @media(max-width: 1200px) {
+            font-size: 26px;
+            max-width: 300px;
+        }
+
+        @media(max-width: 768px) {
+            text-align: center;
+        }
+
+        @media(max-width: 480px) {
+            font-size: 20px;
+        }
+
+        @media(max-width: 360px) {
+            font-size: 18px;
+        }
+    }
+
+    .video-left__description {
+        font-size: 14px;
+        text-align: justify;
+        line-height: 140%;
+        max-width: 450px;
+
+        @media(max-width: 1200px) {
+            font-size: 14px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding-right: 0;
+            max-width: 300px;
+        }
+
+        @media(max-width: 768px) {
+            font-size: 17px;
+            padding: 0;
+            text-align: center;
+        }
+
+
+        @media(max-width: 360px) {
+            font-size: 14px;
+        }
+    }
+
+    .video-left__learnmore {
+        margin-bottom: 70px;
+        color: red;
+
+        @media(max-width: 768px) {
+            align-self: center;
+        }
+
+        @media(max-width: 480px) {
+            font-size: 20px;
+            text-align: start;
+        }
+
+
+
+
+
+    }
+}
+
+.video-right {
+    width: 50%;
+    position: relative;
+    // display: flex;
+
+    @media(max-width: 1200px) {
+        padding-left: 0;
+
+
+    }
+
+    @media(max-width: 768px) {
+        padding-left: 0;
+        margin-bottom: 30px;
+        width: 100%;
+        text-align:center;
+    }
+
+
+    .video-right__video {
+        border-radius: 15px;
+
+        @media(max-width: 1200px) {
+            max-width: 100%;
+
+        }
+
+    }
+
+    .viedo-right__playbutton {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        @media(max-width: 1200px) {
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+
+    }
+}
